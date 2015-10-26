@@ -1,0 +1,27 @@
+{
+  "name": "sats",
+  "version": "0.0.1",
+  "description": "Simple Async Tree Scanner",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitifet/sats.git"
+  },
+  "keywords": [
+    "tree",
+    "filesystem",
+    "scan",
+    "async",
+    "asynchronous",
+    "promise"
+  ],
+  "author": "Joan Miquel Torres",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/bitifet/sats/issues"
+  },
+  "homepage": "https://github.com/bitifet/sats#readme"
+}
