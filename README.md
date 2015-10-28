@@ -60,11 +60,11 @@ Resolves an array of nodes (files and subdirectorys): with the below structure:
 Where...
 
 
-#####path
+##### path
 
 Is the full path to the directory to scan.
 
-####filter
+#### filter
 
 Is an (Optional) filtering function, regular expression or string to allow or reject nodes (and its contents in case of directorys) in the tree.
 
@@ -77,7 +77,7 @@ Valid filter types are:
 **function:** Function receiving the full node and returning true (to accept) or false (to discard) each node. This is the most powerful option, but you should manually take care of not discarding directorys if you want to recursively match file names even if parent directory names doesn't match.
 
 
-####options
+#### options
 
 Additional options like "i" for case insensitive matching in case of RegExp or string (same as RegExp) filter.
 
@@ -97,7 +97,7 @@ Just like scan(), but it resolves to flat array with the full path of all result
 <a name="todo"></a>TODO
 -----------------------
 
-    Enable distinction of display and recursion in filtering function to allow not returning parent directory nodes in find output.
+  * Enable distinction of display and recursion in filtering function to allow not returning parent directory nodes in find output.
 
 
 
